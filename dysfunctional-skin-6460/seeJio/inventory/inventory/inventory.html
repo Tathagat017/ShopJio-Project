@@ -1,0 +1,161 @@
+<html>
+  <head> </head>
+
+  <link rel="stylesheet" href="inventory.css" />
+  <body>
+    <div class="main">
+      <h2 id="heading">Search Inventory</h2>
+      <div id="displayFetched"></div>
+      <input type="text" placeholder="Search.." id="inp-1" />
+      <button id="Search">Search</button>
+      <br />
+
+      <input type="Number" placeholder="Price" id="inp-2" />
+      <button id="Price">Edit</button>
+      <br />
+      <input type="text" placeholder="Name" id="inp-3" />
+      <button id="Name">Edit</button>
+      <br />
+      <button id="Search">Add</button>
+      <button id="Delete">Delete</button>
+    </div>
+  </body>
+  <script>
+    let container = document.getElementById("displayFetched");
+    let input1 = document.getElementById("inp-1");
+    let edit1 = document.getElementById("inp-2");
+    let edit2 = document.getElementById("inp-3");
+    let dataToBeEdited = input1.value;
+    document.getElementById("Search").addEventListener("click", () => {
+      console.log("clicked");
+      fetch(`https://63ca6469f36cbbdfc7574d92.mockapi.io/seeJio/seeJio`)
+        .then((responseObject) => {
+          return responseObject.json();
+        })
+        .then((acctualData) => {
+          fetchedData = acctualData;
+          fetchedData2 = acctualData;
+          sortedData1 = acctualData;
+          console.log(fetchedData);
+          fetchedData = fetchedData.filter((el) => {
+            if (el.id == input1.value) {
+              return true;
+            } else {
+              return false;
+            }
+          });
+          Display(fetchedData);
+        })
+        .catch((err) => console.log(err));
+    });
+
+    function Display(data) {
+      container.innerHTML = null;
+      data.forEach((element) => {
+        edit1.value = element.price;
+        edit2 = element.Brand;
+        let card = document.createElement("div");
+        card.setAttribute("class", "displayMain");
+        let pic = document.createElement("img");
+        pic.setAttribute("src", element.image);
+
+        let brand = document.createElement("h2");
+        brand.innerText = element.Brand;
+
+        let price = document.createElement("h3");
+        price.innerText = "Rs " + element.price;
+
+        let details = document.createElement("p");
+        details.innerText = element.Gender;
+
+        let category = document.createElement("p");
+        category.innerText = element.category;
+
+        let addToCart = document.createElement("button");
+        addToCart.innerText = "Add To Cart";
+
+        let favourites = document.createElement("button");
+        favourites.innerText = "Favourites";
+
+        let description = document.createElement("p");
+        description.innerText = element.description;
+
+        let rating = document.createElement("p");
+        rating.innerText = "⭐" + element.rating.rate;
+
+        let discount = document.createElement("p");
+        discount.innerText = "Offer Discount : " + element.Discount;
+
+        addToCart.addEventListener("click", () => {
+          let cartData = JSON.parse(localStorage.getItem("cart"));
+
+          if (cartData === null) cartData = [];
+
+          let isAdleadyInCart = false;
+          for (let i = 0; i < cartData.length; i++) {
+            if (cartData[i].id === element.id) {
+              isAdleadyInCart = true;
+              break;
+            }
+          }
+
+          if (isAdleadyInCart === true) {
+            alert("Product Already in Cart");
+          } else {
+            cartData.push({ ...element, quantity: 1 });
+            localStorage.setItem("cart", JSON.stringify(cartData));
+            alert("Product Added To Cart");
+          }
+        });
+
+        favourites.addEventListener("click", () => {
+          if (favData === null) cartData = [];
+
+          let isAdleadyInFav = false;
+          for (let i = 0; i < favData.length; i++) {
+            if (favData[i].id === element.id) {
+              isAdleadyInFav = true;
+              break;
+            }
+          }
+
+          if (isAdleadyInFav === true) {
+            alert("Product Already in Favourites");
+          } else {
+            favData.push({ ...element, quantity: 1 });
+            localStorage.setItem("favourites", JSON.stringify(favData));
+            alert("Product Added To favourites");
+          }
+        });
+
+        card.append(
+          pic,
+          brand,
+          description,
+          price,
+          details,
+          category,
+          rating,
+          discount
+        );
+        container.append(card);
+      });
+    }
+
+    let Delete = document.getElementById("Delete");
+    Delete.addEventListener("click", () => {
+      fetch(
+        "https://63ca6469f36cbbdfc7574d92.mockapi.io/seeJio/seeJio/:" +
+          dataToBeEdited,
+        {
+          method: "DELETE",
+        }
+      )
+        .then((res) => res.json())
+        .then((res) => console.alert("Item Deleted"))
+        .catch((err) => {
+          console.log(err);
+        });
+    });
+  </script>
+</html>

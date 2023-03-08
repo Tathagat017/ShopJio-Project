@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MensClothing</title>
+ <link rel="icon" type="image/png" href="./seeJio/finalajio.jpeg" sizes="32x32">
+  <link rel="stylesheet" href="./seeJio/styles/mensClothing.css">
+  <link rel="stylesheet" href="./seeJio/styles/index.css">
+    <style>
+      @media only screen and (max-width: 720px){
+	body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #navbar{
+        position: static;
+    }
+
+    #fetchedDisplay{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+    }
+       #navbar{
+        display: none;
+    }
+}
+@media only screen and (min-width:720px)  and (max-width: 900px){
+	body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #navbar{
+        position: static;
+    }
+
+    #fetchedDisplay{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+       #navbar{
+        display: none;
+    }
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div id="navbar">
+            <div id="navbar-left">
+                
+                <a href="index.html" target="_blank"><img src="./seeJio/finalajio.jpeg" alt=""></a>
+            </div>
+            <div id="navbar-right">
+                <div id="right-upper">
+                     <a href="login.html"><p id="ru">Sign In / Join AJIO</p></a>  
+                    <a href=""><p id="ru">Customer Care</p></a>
+                    <button id="navbar-button">Visit AJIOLUXE</button>
+                </div>
+                <div id="right-lower">
+                    <nav>
+                        <UL>
+                    <li id="rl">
+                         <a href="seeJio\mensClothing.html">  MEN </a>
+                         <div class="megamenu">
+                            <div class="megamenuitems">
+                                <h4>CLOTHING</h4>
+                                <br>
+                                <h4>FOOTWEAR</h4>
+                                <br>
+                                <h4>ACCESSORIES</h4>
+                                <br>
+                                <h4>ALL THATS NEW</h4>
+                                <br> 
+                                <ul>
+                                    <li>Clothing</li>
+                                    <li>Footwear</li>
+                                    <li>Accessories</li>
+                                </ul>  
+                                <br>
+                                <h4>AJIO GLOBAL</h4>
+                                <br>
+                                <h4>WINTERWEAR</h4>
+                                <br>       
+                                                         
+                                
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <ul>
+                                    <li>BackPacks</li>
+                                    <li>Bags & Wallets</li>
+                                    <li>Belts</li>
+                                    <li>Caps & Hats</li>
+                                    <li>Fashion</li>
+                                    <li>Luggage</li>
+                                    <li>Socks</li>
+                                    <li>Wathes</li>
+                                    <li>Fashion</li>
+                                    <li>Luggage</li>
+                                    <li>Socks</li>
+                                </ul>
+                            
+                         </div>
+                         <div class="megamenuitem">
+                            <h4 class="hd">FASHION</h4>
+                            <br>
+                            <ul>
+                                <li>BackPacks</li>
+                                <li>Bags & Wallets</li>
+                                <li>Belts</li>
+                                <li>Caps & Hats</li>
+                                <li>Fashion</li>
+                                <li>Luggage</li>
+                                <li>Socks</li>
+                                <li>Wathes</li>
+                                <li>Briefs</li>
+                                <li>Trunks & Boxers</li>
+                                  <li>Vests</li>
+                            </ul>
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">FEATURED</h4>
+                                <br>
+                                <ul>
+                                    <li>Begs Under 1499</li>
+                                    <li>Footwear Under 1499</li>
+                                    <li>Jeans Under 1199</li>
+                                    <li>Shorts & 3/4ths Under 699</li>
+                                </ul>
+                                <br>
+                               <h4 class="hd"> #AJIORECOMMENDS</h4>
+                               <br>
+                               <ul>
+                                <li>Play Time</li>
+                                <li>Caps & Hats</li>
+                                <li>Fashion</li>
+                                <li>Luggage</li>
+                               </ul>
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">WESTERN WEAR</h4>
+                                <br>
+                                <ul>
+                                    <li>Jackets & Coats</li>
+                                    <li>Jeans</li>
+                                    <li>Shirts</li>
+                                    <li>Shorts & 3/4ths</li>
+                                    <li>Sweatshirts  & Hoodies</li>
+                                    <li>Track Pants</li>
+                                    <li>T-Shirts</li>
+                                </ul>
+                              </div>      
+                        </li>
+                    <li  id="rl"> 
+                        <a href="./womenClothing.html" id="womensBut"> WOMEN </a>
+                <div class="megamenu">
+                 <div class="megamenuitems"
+                    <h4>CLOTHING</h4>
+                    <br>
+                    <h4>FOOTWEAR</h4>
+                    <br>
+                    <h4>ACCESSORIES</h4>
+                    <br>
+                    <h4>ALL THATS NEW</h4>
+                    <br>
+                    <h4>WINTERWEAR</h4>
+                    <br>
+                    <h4>AJIO GLOBAL</h4>
+                    <br>
+                    <h4>BEAUTY</h4>
+                    <br>
+                    <h4>ATHELEISURE</h4>
+                    <br>
+                    
+                    
+    
+    
+                    </div> 
+                    <div class="megamenuitem">
+                        <h4 class="hd">ETHNIC WEAR</h4>
+                        
+                        <ul>
+                            <li>Kurtas</li>
+                            <li>Dress Material</li>
+                            <li>Salwars & Chudidars</li>
+                            <li> Kurtis & Tunics</li>
+                            <li>Sarees</li>
+                            <li>Dupataas</li>
+                            <li>Kurta Suit Sets</li>
+                            <li>Blouse</li>
+                            <li>Leggins</li>
+                            <li>Skirt & Ghagras</li>
+                            <li>Dresses & Gowns</li>
+                        
+                        </ul>                                
+                    </div>
+                    <div class="megamenuitem">
+                        <h4 class="hd">FUSION WEAR</h4>
+                        
+                        <ul>
+                            <li>Caps & Hats</li>
+                            <li>Fashion</li>
+                            <li>Luggage</li>
+                            <li>Socks</li>
+                            <li>Wathes</li>
+                            <li>Kurtas</li>
+                            <li>Kurtis & Tunics</li>
+                            <li>Pants & Shorts</li>
+                            <li>Jackets & Shrugs</li>
+                            <li>Shirts Tops and Tunics</li> 
+                            <li>Blouse</li>     
+                                                           
+                        
+                        </ul>                                
+                    </div>  
+                    <div class="megamenuitem">
+                        <h4 class="hd">JEWELLERY</h4>  
+                        <ul>
+                            <li>Gold And Silver</li>
+                            <li>Gold And Diamonds</li>
+                            <li>Silver Jewellery</li>
+                            <li>Fashion Jewellery</li>
+                        </ul>
+                        <h4 class="hd">LINGERIE & INNERWEAR</h4>
+                        <ul>
+                            <li>Bras</li>
+                            <li>Panties</li>
+                            <li>Camisoles & Slips</li>
+                            <li>Maternity Wear </li>
+                            <li> Thermal Wear</li>
+                        </ul>                                   
+                        </div>
+    
+                        <div class="megamenuitem">
+                            <h4 class="hd">FOOTWEAR</h4>
+                            
+                            <ul>
+                                <li>Casual Shoe</li>
+                                <li>Flat Sandals</li>
+                                <li>Sports Shoes</li>
+                                <li>Flip Flop & Slippers</li>
+                                <li>Heeled Sandals</li>
+                                <li>Boots</li>
+                                <li>Ballet shoe</li> 
+                                <li> Pointe shoe</li>
+                                <LI>   Bast shoe </LI>
+                                <LI> Blucher shoe </LI>
+                            </ul>         
+                    </li>
+    
+    
+    
+    
+    
+    
+                    <li id="rl">
+                        <a href="#" id="kidsBut"> KIDS </a>
+                        <div class="megamenu">
+                            <div class="megamenuitems">
+                                <h4>NEW IN:CLOTHING</h4>
+                                <br>
+                                <h4>NEW IN :FOOTWEAR & ACCS</h4>
+                                <br>
+                                <h4>INNERWEAR & SLEEPWEAR</h4>
+                                <br>
+                                <h4>BOYS</h4>
+                                <ul>
+                                <li>Denims & Trousers</li>
+                                <li>Joggers & Track Pants</li>
+                                <li>Outwears </li>
+                                <li> Shirts</li>
+                                <li>Shorts & 3/4ths</li>
+                                <li>T-Shirts</li>         
+                                <h4 class="hd">SHOP BY AGE</h4>
+                                <ul>
+                                    <li>0 To 2 Years</li>
+                                    <li>2 To 5 Years</li>
+                              
+                                </ul>
+    
+                        </div>  
+                        
+                        <div class="megamenuitem">
+                            <h4 class="hd">FEATURED</h4>
+                            <ul>
+                            <li>Denims Under 799</li>
+                            <li>Shirts Under 599</li>
+                            <li>T-Shirts Under 399</li>
+                
+                        </ul>
+                        <h4 class="hd">GIRLS</h4>
+                        <ul>
+                            <li>Dresses & Frocks</li>
+                            <li>Jeans & Jeggings</li>
+                            <li>Leggins</li>
+                            <li>Outerwaer</li>
+                            <li>Skirt & Shorts</li>
+                            <li>Tops & T-Shirts</li>
+                            <li>Outwears </li>
+                            
+                        </ul>                  
+                        </div>
+                        <div class="megamenuitem">
+                            <h4 class="hd">DENIMS</h4>
+                            <ul>
+                            <li>Denims Under 799</li>
+                            <li>Shirts Under 599</li>
+                            <li>T-Shirts Under 399</li>
+                
+                        </ul>
+                        <h4 class="hd">SLEVES</h4>
+                        <ul>
+                            <li>Dresses & Frocks</li>
+                            <li>Jeans & Jeggings</li>
+                            <li>Leggins</li>
+                            <li>Outerwaer</li>
+                            <li>Skirt & Shorts</li>
+                            <li>Tops & T-Shirts</li>
+                        </ul>
+                        </div>
+                        <div class="megamenuitem">
+                            <h4 class="hd">CATOGORY</h4>
+                            <ul>
+                            <li>Dresses Under 499</li>
+                            <li>Tops Under 399</li>
+    
+                        </ul>
+                       <h4 class="hd"> TOYS AND BABYCARE </h4>
+                       <ul>
+                        <li>Action-Figurine& Collection</li>
+                        <li>Creative & Educational Toys</li>
+                        <li>Gaming, Robot & Vehicle</li>
+                        <li>Infant Toys</li>
+                        <li>Role & Pretend Play</li>
+                        <li>School,Party Supplies & Books</li>
+                        <li>Soft Toys</li>
+                        <li>Toy-Guns & Accessories</li>
+    
+                       </ul>
+                        </div>
+    
+                    </li> 
+                    <li id="rl">
+                         <a href="#"> INDIE </a>
+                         <div class="megamenu">
+                            <div class="megamenuitem">
+                                <h4 class="hd">CLOTHING</h4>
+                                <br>
+                                <h4 class="hd">FOOTWEAR</h4>
+                                <br>
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <h4 class="hd">ALL THATS NEW</h4>
+                                <br>
+                                <h4 class="hd">WINTERWEAR</h4>
+                                <br>
+                                <h4 class="hd">AJIO GLOBAL</h4>
+                                <br>
+                                <h4 class="hd">BEAUTY</h4>
+                                <br>
+                                <h4 class="hd">ATHELEISURE</h4>
+                                                       
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">ETHNIC WEAR</h4>
+                    
+                    <ul>
+                        <li>Kurtas</li>
+                        <li>Dress Material</li>
+                        <li>Salwars & Chudidars</li>
+                        <li> Kurtis & Tunics</li>
+                        <li>Sarees</li>
+                        <li>Dupataas</li>
+                        <li>Kurta Suit Sets</li>
+                        <li>Blouse</li>
+                        <li>Leggins</li>
+                        <li>Skirt & Ghagras</li>
+                        <li>Infant Toys</li>
+                        
+                    </ul>                           
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">REGIONAL SPECIALITIES</h4>
+                    
+                    <ul>
+                        <li>Curtains</li>
+                        <li>Dress Material</li>
+                        <li>Table Linen</li>
+                        <li> Rugs, Carpets & Dhurries</li>
+                        <li>Sarees</li>
+                        <li>Ajrak</li>
+                        <li>Dress Suit</li>
+                        <li>Blammer</li>
+                        <li>Towel Sets</li>
+                        <li>Vases</li>
+                        <li>Infant</li>
+                          
+                    </ul>                           
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">FEATURED BRANDS</h4>
+                    
+                    <ul>
+                        <li>Bath Towel & Robes</li>
+                        <li>Hand & Face Towels</li>
+                        <li>Table Linen</li>
+                        <li>Towel Sets</li>
+                        <li>Vases</li>
+                        <li>Infant</li>
+                        <li>Role & Pretend</li>
+                        <li> Rugs, Carpets & Dhurries</li>
+                        <li>Holders & More</li>
+                        <li>Ajrak</li>
+                        <li>GIFT For Everyone Under 999</li>
+                        
+                        
+                      </div>  
+                        </li>
+    
+                    <li id="rl">
+                        <a href="#">HOME AND KITCHEN </a> 
+                        <div class="megamenu">
+                            <div class="megamenuitem">
+                   
+                                <h4 class="hd">FRIDGE</h4>
+                                <br>
+                                <h4 class="hd">THERMO</h4>
+                                <br>
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <h4 class="hd">ALL THATS NEW</h4>
+                                <br>
+                                <h4 class="hd">WINGLASS</h4>
+                                <br>
+                                <h4 class="hd">AJIO GLOBAL</h4>
+                                <br>
+                                <h4 class="hd">BED LILEN</h4>
+                                <br>
+                                <h4 class="hd">ATHELEISURE</h4>
+                                    
+                                
+            </div>  
+            <div class="megamenuitem">
+                <h4 class="hd">DINING</h4>
+                <ul>
+                    <li>Plates</li>
+                    <li>Material</li>
+                    <li>alwar & didars</li>
+                    <li> Tunics</li>
+                    <li>Glasses</li>
+                    <li>Dupataas</li>
+                    <li>Plate Sets</li>
+                    <li>Ovan</li>
+                    <li>Decor</li>
+                    <li>kitchen & Stuffs</li>
+                    <li>alwar & didars</li>
+                    
+                </ul>                  
+            </div>
+            <div class="megamenuitem">
+                <h4 class="hd">HOME DECCOR</h4>
+                
+                <ul>
+                    <li>Wall Decor</li>
+                    <li>Wall nail</li>
+                    <li>Camisoles & Slips</li>
+                    <li>Mater Walt</li>
+                    <li> Thermal</li>
+                </ul>
+                <h4 class="hd">ACCESSORIES</h4>
+        
+                <ul>
+                    <li>Cooker & Frames</li>
+                    <li>Wathes</li>
+                    <li>Bag, Belts And Wathes</li>
+                    <li>Stoles And Scraves</li>
+                    <li>Socks</li>
+                    
+                </ul>
+                </div>
+                <div class="megamenuitem">
+                    <h4 class="hd">PRESSURE COOKER</h4>
+                    <ul>
+                        <li>Casual Shoe</li>
+                        <li>Flat Sandals</li>
+                        <li>Sports Shoes</li>
+                        <li>Flip Flop & Slippers</li>
+                        <li>Heeled Sandals</li>
+                        <li>Boots</li>
+                        <li>alwar & didars</li>
+                        <li> Tunics</li>
+                        <li>Glasses</li>
+                        <li>Dupataas</li>
+                        <li>Plate Sets</li>
+                        
+                    </ul>
+                 </div>   
+                 <div class="megamenuitem">
+                    <h4 class="hd">BED LINEN</h4>
+                    <ul>
+                        <li>Bedsheets</li>
+                        <li>Flat Sandals</li>
+                        <li>Bedding Sets</li>
+                        <li>Blankets, Dohars & Quilts</li>
+                        <li>Mattress Protectors</li>
+                        <li>Quilt & Duvet Covers</li>
+                        <li>Cushions</li>
+                        <li>Bakeware</li>
+                        <li>Kitchen Tools</li>
+                        <li>Kitchen Organisers</li>
+                        
+                    </li> 
+                </UL>
+                </nav>          
+                    <input id="navbar-input" type="text" placeholder="Search SHOPJIO">
+                    <img id="bar-img" class= "cartButon" src="https://i.pinimg.com/originals/fc/fa/0c/fcfa0c367d786deeaf42dec2fda70e47.png"  alt="">
+                    <img id="bar-img"  class="favButton" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHuCTCHiz7-sR9YwmlVHDZ0UXU-tcjDRIzmGlub9of64k0gsAJXe29kR-9Bpfj1f_YAg&usqp=CAU" alt="">
+                </div>
+            </div>
+        </div>
+      <hr style="margin-top: 8px;">
+    </nav>
+
+    <div id="displayFlex">
+      <!-- SideNav -->
+      <div id="sideNav">
+        <!-- Refine -->
+        <div class="refineFilter" id="refineFilter">
+          <div><h3>Refine Results</h3></div>
+          <!-- Gender -->
+          <div class="dropdown-container-Refine">
+            <div id="GenderDrop">
+              <span class="dropdown"> <h4>+ Gender</h4></span>
+              <div class="toggleThis1" class="show">
+                <label for="gender">
+                  <input
+                    type="checkbox"
+                    id="Gender"
+                    name="gender"
+                    value="Women"
+                    checked
+                  />
+                  Women</label
+                >
+              </div>
+            </div>
+          </div>
+          <!-- categories -->
+          <div class="dropdown-container-Refine">
+            <div id="categoriesDrop">
+              <span class="dropdown"> <h4>+ Categories</h4></span>
+              <div class="toggleThis2" class="hidden">
+                <label for="categories"
+                  ><input
+                    type="checkbox"
+                    id="categories1"
+                    name="shirt"
+                    value="Shirt"
+                    unchecked
+                  />
+                  Shirt</label
+                >
+                <label for="categories">
+                  <input
+                    type="checkbox"
+                    class="categories"
+                    id="categories2"
+                    value="Trousers"
+                    name="Trousers"
+                    unchecked
+                  />
+                  Trousers</label
+                >
+                <label for="categories">
+                  <input
+                    type="checkbox"
+                    id="categories3"
+                    class="categories"
+                    name="jackets"
+                    value="jackets"
+                    unchecked
+                  />
+                  Jackets</label
+                >
+
+                <!-- modal pop up categories -->
+
+                <button class="trigger2">More</button>
+                <div class="modal2">
+                  <div class="modal-content2">
+                    <span class="close-button2">×</span>
+                    <h3>Choose Categories</h3>
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="Jeans"
+                        unchecked
+                      />
+                      Jeans</label
+                    >
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="Underwear"
+                        unchecked
+                      />
+                      Puma</label
+                    >
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="TShirts"
+                        unchecked
+                      />
+                      T-Shitrts</label
+                    >
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="Hoodies"
+                        unchecked
+                      />
+                      Hoodies</label
+                    >
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="Gloves"
+                        unchecked
+                      />
+                      Gloves</label
+                    >
+                    <label for="category-modal">
+                      <input
+                        type="checkbox"
+                        class="category-modal"
+                        name="category-modal"
+                        value="Socks"
+                        unchecked
+                      />
+                      Socks</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Price -->
+          <div class="dropdown-container-Refine">
+            <div id="Price">
+              <span class="dropdown"> <h4>+ Price</h4></span>
+              <div class="toggleThis3" class="hidden">
+                <label for="LessThan500">
+                  <input
+                    type="checkbox"
+                    id="LessThan500"
+                    name="Price"
+                    value="LessThan500"
+                    unchecked
+                  />
+                  Below Rs 500</label
+                >
+                <label for="1000to1500">
+                  <input
+                    type="checkbox"
+                    id="1000to1500"
+                    name="Price"
+                    value="1000to1500"
+                    unchecked
+                  />
+                  Rs 1000 - Rs 1500</label
+                >
+                <label for="1500to2500">
+                  <input
+                    type="checkbox"
+                    id="1500to2500"
+                    name="Price"
+                    value="1500to2500"
+                    unchecked
+                  />
+                  Rs 1500 - Rs 2500</label
+                >
+                <label for="2500to3000">
+                  <input
+                    type="checkbox"
+                    id="2500to3000"
+                    name="Price"
+                    value="2500to3000"
+                    unchecked
+                  />
+                  Rs 2500 - Rs 3000</label
+                >
+                <label for="3000to5000">
+                  <input
+                    type="checkbox"
+                    id="3000to5000"
+                    name="Price"
+                    value="3000to5000"
+                    unchecked
+                  />
+                  Rs 3000 - Rs 5000</label
+                >
+
+                <!-- test for price slider -->
+                <div class="wrapper">
+                  <header>
+                    <h2>Price Range</h2>
+                    <p>Use slider or enter min and max price</p>
+                  </header>
+                  <div class="price-input">
+                    <div class="field">
+                      <span>Min</span>
+                      <input type="number" class="input-min" value="2500" />
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="field">
+                      <span>Max</span>
+                      <input type="number" class="input-max" value="7500" />
+                    </div>
+                  </div>
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input
+                      type="range"
+                      class="range-min"
+                      min="0"
+                      max="10000"
+                      value="2500"
+                      step="100"
+                    />
+                    <input
+                      type="range"
+                      class="range-max"
+                      min="0"
+                      max="10000"
+                      value="7500"
+                      step="100"
+                    />
+                  </div>
+                </div>
+                <!-- end test price slider -->
+              </div>
+            </div>
+          </div>
+          <!-- Brands -->
+          <div class="dropdown-container-Refine">
+            <div id="brandsDrop">
+              <span class="dropdown"> <h4>+ Brands</h4></span>
+              <div class="toggleThis4" class="hidden">
+                <p>Popular Brands</p>
+                <label for="brands">
+                  <input
+                    type="checkbox"
+                    class="brands"
+                    name="brands"
+                    value="Allen-Solly"
+                    unchecked
+                  />
+                  Allen Solly</label
+                >
+                <label for="brands">
+                  <input
+                    type="checkbox"
+                    class="brands2"
+                    name="brands"
+                    value="Puma"
+                    unchecked
+                  />
+                  Puma</label
+                >
+                <label for="brands">
+                  <input
+                    type="checkbox"
+                    class="brands"
+                    name="brands"
+                    value="Puma"
+                    unchecked
+                  />
+                  Adidas</label
+                >
+                <label for="brands">
+                  <input
+                    type="checkbox"
+                    class="brands"
+                    name="brands"
+                    value="Nike"
+                    unchecked
+                  />
+                  Nike</label
+                >
+
+                <!-- more - brands - trigger for pop up modal-->
+
+                <button class="trigger">More</button>
+                <div class="modal">
+                  <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <h3>Choose Categories</h3>
+                    <input
+                      type="checkbox"
+                      class="brands-modal"
+                      name="brands-modal"
+                      value="Allen-Solly"
+                      unchecked
+                    />
+                    <label for="brands">Allen Solly</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Puma"
+                      unchecked
+                    />
+                    <label for="brands">Puma</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Fila"
+                      unchecked
+                    />
+                    <label for="brands">Adidas</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Nike"
+                      unchecked
+                    />
+                    <label for="brands">Nike</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Lewis"
+                      unchecked
+                    />
+                    <label for="brands">Lewis</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Wrangler"
+                      unchecked
+                    />
+                    <label for="brands">Wrangler</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Adidas"
+                      unchecked
+                    />
+                    <label for="brands">Wrangler</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Arrow"
+                      unchecked
+                    />
+                    <label for="brands">Arrow</label>
+
+                    <input
+                      type="checkbox"
+                      class="brands"
+                      name="brands"
+                      value="Raymonds"
+                      unchecked
+                    />
+                    <label for="brands">Raymonds</label>
+                  </div>
+                </div>
+                <!-- Modal ends - brand -->
+              </div>
+            </div>
+          </div>
+          <!-- Occasion -->
+
+          <div class="dropdown-container-Refine">
+            <div id="occassionDrop">
+              <span class="dropdown"><h4>+ Occasion</h4></span>
+              <div class="toggleThis5" class="hidden">
+                <label for="Occasion">
+                  <input
+                    type="checkbox"
+                    id="Active"
+                    name="Occasion"
+                    value="Active"
+                    unchecked
+                  />
+                  Active</label
+                >
+                <label for="Occasion">
+                  <input
+                    type="checkbox"
+                    id="Casual"
+                    name="Occasion"
+                    value="Casual"
+                    unchecked
+                  />
+                  Casual</label
+                >
+                <label for="Occasion">
+                  <input
+                    type="checkbox"
+                    id="Universal"
+                    name="Occasion"
+                    value="Occasion"
+                    unchecked
+                  />
+                  Occasion</label
+                >
+                <label for="Occasion">
+                  <input
+                    type="checkbox"
+                    id="Party"
+                    name="Occasion"
+                    value="PartyWear"
+                    unchecked
+                  />
+                  Party Wear</label
+                >
+                <label for="Occasion">
+                  <input
+                    type="checkbox"
+                    id="Gym"
+                    name="Occasion"
+                    value="Gym"
+                    unchecked
+                  />
+                  Gym Wear</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Discount -->
+          <div class="dropdown-container-Refine">
+            <div id="Discount">
+              <span class="dropdown"><h4>+ Discount</h4></span>
+              <div class="toggleThis6" class="hidden">
+                <label for="Discount20">
+                  <input
+                    type="checkbox"
+                    id="Discount20"
+                    name="Discount20"
+                    value="20"
+                    unchecked
+                  />
+                  0-20%
+                </label>
+                <label for="Discount30">
+                  <input
+                    type="checkbox"
+                    id="Discount30"
+                    name="Discount30"
+                    value="30"
+                    unchecked
+                  />
+                  20-30%
+                </label>
+
+                <label for="Discount40">
+                  <input
+                    type="checkbox"
+                    id="Discount40"
+                    name="Discount40"
+                    value="40"
+                    unchecked
+                  />
+                  30-40%
+                </label>
+
+                <label for="Discount40">
+                  <input
+                    type="checkbox"
+                    id="Discount50"
+                    name="Discount50"
+                    value="50"
+                    unchecked
+                  />
+                  50-60%
+                </label>
+
+                <label for="Discount60">
+                  <input
+                    type="checkbox"
+                    id="Discount50"
+                    name="Discount60"
+                    value="60"
+                    unchecked
+                  />
+                  60-70%
+                </label>
+                <label for="Discount70">
+                  <input
+                    type="checkbox"
+                    id="Discount70"
+                    name="Discount70"
+                    value="70"
+                    unchecked
+                  />
+                  Above 70%
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Ratings -->
+          <div class="dropdown-container-Refine">
+            <div id="Rating">
+              <span class="dropdown"><h4>+ Rating</h4></span>
+              <div class="toggleThis7" class="hidden">
+                <label for="Rating5">
+                  <input
+                    type="checkbox"
+                    id="5star"
+                    name="5star"
+                    value="5"
+                    unchecked
+                  />
+
+                  ⭐⭐⭐⭐⭐</label
+                >
+
+                <label for="Rating4">
+                  <input
+                    type="checkbox"
+                    id="4star"
+                    name="4star"
+                    value="4"
+                    unchecked
+                  />
+
+                  ⭐⭐⭐⭐</label
+                >
+
+                <label for="Rating3">
+                  <input
+                    type="checkbox"
+                    id="3Star"
+                    name="3star"
+                    value="3"
+                    unchecked
+                  />
+
+                  ⭐⭐⭐</label
+                >
+
+                <label for="Rating2">
+                  <input
+                    type="checkbox"
+                    id="2star"
+                    name="2star"
+                    value="2"
+                    unchecked
+                  />
+
+                  ⭐⭐</label
+                >
+
+                <label for="Rating1">
+                  <input
+                    type="checkbox"
+                    id="1star"
+                    name="1star"
+                    value="1"
+                    unchecked
+                  />
+
+                  ⭐</label
+                >
+
+                <button class="trigger3">More</button>
+                <div class="modal3">
+                  <div class="modal-content3">
+                    <span class="close-button3">×</span>
+                    <h3>Choose Categories</h3>
+                    <input
+                      type="checkbox"
+                      class="color-modal"
+                      name="color-modal"
+                      value="Red"
+                      unchecked
+                    />
+                    <span class="smallCircle">()</span>
+                    <label for="color">Red</label>
+
+                    <input
+                      type="checkbox"
+                      class="color"
+                      name="color"
+                      value="White"
+                      unchecked
+                    />
+                    <span class="smallCircle">()</span>
+                    <label for="color">White</label>
+
+                    <input
+                      type="checkbox"
+                      class="color"
+                      name="color"
+                      value="NavyBlue"
+                      unchecked
+                    />
+                    <span class="smallCircle">()</span>
+                    <label for="color">Navy Blue</label>
+
+                    <input
+                      type="checkbox"
+                      class="color"
+                      name="color"
+                      value="Grey"
+                      unchecked
+                    />
+                    <span class="smallCircle">()</span>
+                    <label for="color">Grey</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Size and Fit -->
+          <div class="dropdown-container-Refine">
+            <div id="SizeDrop">
+              <span class="dropdown"><h4>+ Size</h4></span>
+              <div class="toggleThis8" class="hidden">
+                <label for="S">
+                  <input
+                    type="checkbox"
+                    id="SizeXXL"
+                    name="S"
+                    value="S"
+                    unchecked
+                  />
+                  Size S</label
+                >
+
+                <label for="M">
+                  <input
+                    type="checkbox"
+                    id="SizeM"
+                    name="M"
+                    value="M"
+                    unchecked
+                  />
+                  Size M</label
+                >
+
+                <label for="L">
+                  <input
+                    type="checkbox"
+                    id="SizeL"
+                    name="L"
+                    value="L"
+                    unchecked
+                  />
+                  Size L</label
+                >
+
+                <label for="X">
+                  <input
+                    type="checkbox"
+                    id="SizeX"
+                    name="X"
+                    value="X"
+                    unchecked
+                  />
+                  Size X</label
+                >
+
+                <label for="XXL">
+                  <input
+                    type="checkbox"
+                    id="SizeXXL"
+                    name="XXL"
+                    value="XXL"
+                    unchecked
+                  />
+                  Size XXL</label
+                >
+              </div>
+            </div>
+          </div>
+          <!-- end size  -->
+        </div>
+
+        <!-- More Categories -->
+        <div class="dropdown-container2-MoreFilters"></div>
+      </div>
+      <!-- The Display : dyanamic -->
+      <div id="main-container">
+        <h2>Clothing</h2>
+        <!-- display hiddening selected filters from sideNav -->
+        <div id="selectedFilters"></div>
+        <!-- Div hiddening Dynamic content : title,sort -->
+        <div id="TitleDisplay">
+          <h4 id="itemsFound">Items found</h4>
+          <div id="grid_3"></div>
+          <div id="grid_8"></div>
+          <select name="sort" id="sort">
+            <option value="nothing">select to sort</option>
+            <option value="LTH">Lower to Higher</option>
+            <option value="HTL">Higher to Lower</option>
+            <option value="Relevance">Relevance</option>
+            <option value="Discount ">Discount</option>
+            <option value="new">New Arrivals</option>
+          </select>
+        </div>
+        <!-- Display redering product Data -->
+
+        <div id="fetchedDisplay"></div>
+        <div id="loading"></div>
+        <!-- Pagination wrapper -->
+      </div>
+    </div>
+
+    <footer><!-- place footer here --></footer>
+  </body>
+  <script src="./seeJio/scripts/mensClothing.js"></script>
+  <script>
+    
+    let filet1= document.getElementById("Women")
+
+  window.addEventListener("load",()=>{fetch(`https://63ca6469f36cbbdfc7574d92.mockapi.io/seeJio/seeJio`)
+      .then((responseObject) => {
+        return responseObject.json();
+      })
+      .then((acctualData) => {
+        fetchedData = acctualData;
+        fetchedData2 = acctualData;
+
+        fetchedData = fetchedData.filter((el) => {
+          if (el.Gender == "women") {
+            return true;
+          } else {
+            return false;
+          }
+        });
+
+        Display(fetchedData);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  
+  })
+    
+
+  </script>
+  <script>
+let womenBut = document.getElementById("womenBut");
+womenBut.addEventListener("click",(e)=>{
+e.preventDefault()
+let Gender = "Men"
+fetchAndRender1(Gender)
+console.log("aa")
+})
+     
+function fetchAndRender1(Gender="Men") {
+  fetch(`https://63ca6469f36cbbdfc7574d92.mockapi.io/seeJio/seeJio`)
+    .then((responseObject) => {
+      return responseObject.json();
+    })
+    .then((acctualData) => {
+      fetchedData = acctualData;
+      fetchedData2 = acctualData;
+      sortedData1 = acctualData;
+      fetchedData = fetchedData.filter((el) => {
+        if (el.Gender == Gender) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+
+      //renderPaginationButtons(totalCount);
+      Display(fetchedData);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+  // }
+  function Display(data) {
+    container.innerHTML = null;
+    let itemsFound = document.getElementById("itemsFound");
+    data.forEach((element) => {
+      let card = document.createElement("div");
+      card.setAttribute("class", "displayMain");
+      let pic = document.createElement("img");
+      pic.setAttribute("src", element.image);
+
+      let brand = document.createElement("h2");
+      brand.innerText = element.Brand;
+
+      let price = document.createElement("h3");
+      price.innerText = "₹ " + element.price;
+
+      let details = document.createElement("p");
+      details.innerText = element.Gender;
+
+      let category = document.createElement("p");
+      category.innerText = element.category;
+
+      let addToCart = document.createElement("button");
+      addToCart.innerText = "Add To Cart";
+      addToCart.setAttribute("id", "cartButton");
+
+      let favourites = document.createElement("button");
+      favourites.innerText = "Favourites";
+
+      let description = document.createElement("p");
+      description.innerText = element.description;
+
+      let rating = document.createElement("p");
+      rating.innerText = "⭐" + element.rating.rate;
+
+      let discount = document.createElement("p");
+      discount.innerText = "Offer Discount :" + element.Discount;
+
+      addToCart.addEventListener("click", () => {
+        let cartData = JSON.parse(localStorage.getItem("cart"));
+
+        if (cartData === null) cartData = [];
+
+        let isAdleadyInCart = false;
+        for (let i = 0; i < cartData.length; i++) {
+          if (cartData[i].id === element.id) {
+            isAdleadyInCart = true;
+            break;
+          }
+        }
+
+        if (isAdleadyInCart === true) {
+          alert("Product Already in Cart");
+        } else {
+          cartData.push({ ...element, quantity: 1 });
+          localStorage.setItem("cart", JSON.stringify(cartData));
+          alert("Product Added To Cart");
+        }
+      });
+
+      favourites.addEventListener("click", () => {
+        if (favData === null) cartData = [];
+
+        let isAdleadyInFav = false;
+        for (let i = 0; i < favData.length; i++) {
+          if (favData[i].id === element.id) {
+            isAdleadyInFav = true;
+            break;
+          }
+        }
+
+        if (isAdleadyInFav === true) {
+          alert("Product Already in Favourites");
+        } else {
+          favData.push({ ...element, quantity: 1 });
+          localStorage.setItem("favourites", JSON.stringify(favData));
+          alert("Product Added To favourites");
+        }
+      });
+
+      card.append(
+        pic,
+        brand,
+        description,
+        price,
+        details,
+        category,
+        rating,
+        discount,
+        addToCart,
+        favourites
+      );
+      container.append(card);
+      itemsFound.innerText = data.length + " Items found";
+    });
+  }
+}
+
+
+
+
+
+
+let kidsBut = document.getElementById("kidsBut");
+kidsBut.addEventListener("click",(e)=>{
+e.preventDefault()
+let Gender = "Kids"
+fetchAndRender2(Gender)
+console.log("aa")
+})
+     
+function fetchAndRender2(Gender="Kids") {
+  fetch(`https://63ca6469f36cbbdfc7574d92.mockapi.io/seeJio/seeJio`)
+    .then((responseObject) => {
+      return responseObject.json();
+    })
+    .then((acctualData) => {
+      fetchedData = acctualData;
+      fetchedData2 = acctualData;
+      sortedData1 = acctualData;
+      fetchedData = fetchedData.filter((el) => {
+        if (el.Gender == Gender) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+
+      //renderPaginationButtons(totalCount);
+      Display(fetchedData);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+  // }
+  function Display(data) {
+    container.innerHTML = null;
+    let itemsFound = document.getElementById("itemsFound");
+    data.forEach((element) => {
+      let card = document.createElement("div");
+      card.setAttribute("class", "displayMain");
+      let pic = document.createElement("img");
+      pic.setAttribute("src", element.image);
+
+      let brand = document.createElement("h2");
+      brand.innerText = element.Brand;
+
+      let price = document.createElement("h3");
+      price.innerText = "₹ " + element.price;
+
+      let details = document.createElement("p");
+      details.innerText = element.Gender;
+
+      let category = document.createElement("p");
+      category.innerText = element.category;
+
+      let addToCart = document.createElement("button");
+      addToCart.innerText = "Add To Cart";
+      addToCart.setAttribute("id", "cartButton");
+
+      let favourites = document.createElement("button");
+      favourites.innerText = "Favourites";
+
+      let description = document.createElement("p");
+      description.innerText = element.description;
+
+      let rating = document.createElement("p");
+      rating.innerText = "⭐" + element.rating.rate;
+
+      let discount = document.createElement("p");
+      discount.innerText = "Offer Discount :" + element.Discount;
+
+      addToCart.addEventListener("click", () => {
+        let cartData = JSON.parse(localStorage.getItem("cart"));
+
+        if (cartData === null) cartData = [];
+
+        let isAdleadyInCart = false;
+        for (let i = 0; i < cartData.length; i++) {
+          if (cartData[i].id === element.id) {
+            isAdleadyInCart = true;
+            break;
+          }
+        }
+
+        if (isAdleadyInCart === true) {
+          alert("Product Already in Cart");
+        } else {
+          cartData.push({ ...element, quantity: 1 });
+          localStorage.setItem("cart", JSON.stringify(cartData));
+          alert("Product Added To Cart");
+        }
+      });
+
+      favourites.addEventListener("click", () => {
+        if (favData === null) cartData = [];
+
+        let isAdleadyInFav = false;
+        for (let i = 0; i < favData.length; i++) {
+          if (favData[i].id === element.id) {
+            isAdleadyInFav = true;
+            break;
+          }
+        }
+
+        if (isAdleadyInFav === true) {
+          alert("Product Already in Favourites");
+        } else {
+          favData.push({ ...element, quantity: 1 });
+          localStorage.setItem("favourites", JSON.stringify(favData));
+          alert("Product Added To favourites");
+        }
+      });
+
+      card.append(
+        pic,
+        brand,
+        description,
+        price,
+        details,
+        category,
+        rating,
+        discount,
+        addToCart,
+        favourites
+      );
+      container.append(card);
+      itemsFound.innerText = data.length + " Items found";
+    });
+  }
+}
+  </script>
+</html>

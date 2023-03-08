@@ -1,0 +1,42 @@
+GET https://639f6b485eb8889197fc63dd.mockapi.io/tagShop/api/seeJIO
+
+###POST
+POST https://639f6b485eb8889197fc63dd.mockapi.io/tagShop/api/seeJIO
+Content-Type: application/json
+
+{
+    "id": 1,
+    "Brand": "Arrow",
+    "price": 109.95,
+    "Gender": "Men",
+    "category": "Clothing",
+    "image": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/-473Wx593H-460789301-blue-MODEL.jpg",
+    "rating": {
+      "rate": 3,
+      "count": 120
+    }
+}
+###POST
+POST https://639f6b485eb8889197fc63dd.mockapi.io/tagShop/api/seeJIO
+Content-Type: application/json
+
+  {
+    "id": 2,
+    "Brand": "Puma",
+    "price": 22.3,
+    "Gender": "Men",
+    "category": "Clothing",
+    "image": "https://m.media-amazon.com/images/I/61eMJalktNL._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  }
+###POST
+POST  https://reqres.in/api/register
+Content-Type: application/json
+
+{
+"email": "eve.holt@reqres.in", "password": "pistol"
+}
+

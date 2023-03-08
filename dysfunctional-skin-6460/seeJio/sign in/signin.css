@@ -1,0 +1,220 @@
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 37%;
+  width: 27%;
+  border: 3px solid #f1f1f1;  
+   z-index: 1; 
+  margin-top: 10px;
+  background-color:#FEFEFE;
+}
+
+/* Add styles to the form container */
+.form-container {
+  /* max-width: 300px; */
+  padding: 10px;
+  background-color:#FEFEFE;
+  width: 90%;
+  margin: auto;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  /* opacity: 0.8; */
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  /* opacity: 1; */
+}
+
+/* 11111111111111111111111111111111111111111 */
+#ajio{
+    font-size: 25px;
+    margin-top: 42px;
+    /* color: gray; */
+}
+#facebook-div{
+    /* border:solid blue 1.6px; */
+    width: 40%px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+#google-div{
+    /* border: solid red 1.6px; */
+    width: 40%px;
+    cursor: pointer;
+}
+#facebook-img{
+    width: 20px;
+    margin: auto;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin-left: 25px;
+    
+}
+#google-img{
+    width: 23px;
+    margin: auto;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin-left: 32px;
+}
+#facebook-btn{
+    /* height: 45px; */
+    
+}
+#facebook{
+    padding-left: 2px;
+    margin-bottom: 100px;
+    margin: auto;
+    /* color:blue; */
+    /* font-size: 14px; */
+}  
+#google{
+    /* color: red; */
+    padding-left: 2px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 7px;
+}
+#back{
+    margin-left: 97%;
+   cursor:pointer;
+}
+
+/*................... otp css ..................*/
+
+.formOtp-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 37%;
+  width: 27%;
+  border: 3px solid #f1f1f1;  
+   z-index: 1; 
+  margin-top: 10px;
+}
+
+/* Add styles to the form container */
+.formOtp-container {
+  padding: 10px;
+  background-color:white;
+  width: 95%;
+  margin: auto;
+}
+
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  /* opacity: 0.8; */
+}
+
+
+#back2{
+  margin-left: 95%;
+  cursor:pointer;
+ }
+ #otp{
+  font-size: 25px;
+  margin-top: 42px;
+  margin-left: 6px;
+  /* color: gray; */
+}
+#start{
+  width: 50%;
+  height: 40px;
+  cursor: pointer;
+  background-color:#D5A249;
+  border-radius: 5px;
+  margin-left: 6px; 
+}
+#start-text{
+  padding-top: 12px;
+  text-align: center;
+  color: white;
+  
+}
+#text-line2{
+  /* width: 95%;*/
+  margin-left: 4px; 
+  background-color: transparent;
+      border: 0px solid;
+      border-bottom: 1px solid;
+      margin-top: 5%;
+      color: #D5A249;
+      width: 95%;
+      /* margin: auto; */
+
+}
+#resend{
+  color: navy;
+  margin-left: 65%;
+  cursor: pointer;
+}
+#password{
+  border: solid #D5A249 1px;
+  margin-top: 13%;
+  width: 60%;
+  cursor: pointer;
+  margin-left: 8px;
+}
+#login{
+  color: #D5A249;
+  text-align: center;
+  
+}
+.p{
+  margin-left: 6px;
+}
+
+#cont-text{
+  color:white;
+  background-color:  #D5A249;
+  display: block;
+  width:26%;
+  border-radius: 5px;
+}

@@ -1,0 +1,1219 @@
+[
+  {
+    "id": 1,
+    "Brand": "Arrow",
+    "price": 109.95,
+    "Gender": "Men",
+    "category": "Trouser",
+    "image": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/-473Wx593H-460789301-blue-MODEL.jpg",
+    "Discount": "20%",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "rating": {
+      "rate": 3,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "Brand": "Puma",
+    "price": 220.3,
+    "Gender": "Men",
+    "category": "Jacket",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61eMJalktNL._AC_UL480_FMwebp_QL65_.jpg",
+    "Discount": "20%",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "Brand": "Puma",
+    "price": 550.99,
+    "Gender": "Men",
+    "category": "Jacket",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61mqx2-CJdL._AC_UL480_FMwebp_QL65_.jpg",
+    "Discount": "30%",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "Brand": "Puma",
+    "price": 455.99,
+    "Gender": "Men",
+    "category": "Jacket",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61Dzm1VHR+L._AC_UL480_FMwebp_QL65_.jpg",
+    "Discount": "30%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "Brand": "Nike",
+    "price": 555,
+    "Gender": "Men",
+    "category": "Jacket",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61rqUsD3q1L._AC_UL480_FMwebp_QL65_.jpg",
+    "Discount": "60%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "Brand": "Adidas",
+    "price": 695,
+    "Gender": "Men",
+    "category": "Jacket",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61rqUsD3q1L._AC_UL480_FMwebp_QL65_.jpg",
+    "Discount": "70%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 7,
+    "Brand": "Golfee",
+    "price": 478.99,
+    "Gender": "Men",
+    "category": "Shirt",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61KNBTw4K8S._AC._SR360,460.jpg",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "Brand": "Nike",
+    "price": 225.99,
+    "Gender": "Men",
+    "category": "Shirt",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "image": "https://m.media-amazon.com/images/I/61qcnAHZP3L._AC._SR360,460.jpg",
+    "Discount": "30%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 9,
+    "Brand": "Jockey",
+    "price": 777.99,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61WrmjKbNzS._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 10,
+    "Brand": "Michael Kors",
+    "price": 1144,
+    "Gender": "Men",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/81MEk4n9BXL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "0%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 11,
+    "Brand": "Wrangler",
+    "price": 599,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/61pCn6DowvS._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "30%",
+    "rating": {
+      "rate": 4.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 12,
+    "Brand": "Michael Kors",
+    "price": 1122,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51inUyV2tdL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 13,
+    "Brand": "Zara",
+    "price": 799,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51qAuvHJXOL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "25%",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 14,
+    "Brand": "Allen Solly",
+    "price": 999.99,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/61df4EyP-JL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 15,
+    "Brand": "Adidas",
+    "price": 566.99,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/71LSdE6KaXL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 16,
+    "Brand": "Levi's",
+    "price": 929.95,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/61yx9yDKzZL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 17,
+    "Brand": "Puma",
+    "price": 1629.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41-lWh-SosL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 18,
+    "Brand": "Nike",
+    "price": 999.85,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/71-Jz5FRWyL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "30%",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 19,
+    "Brand": "Zara",
+    "price": 1187.95,
+    "Gender": "Men",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/71TAnwqwLDL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 20,
+    "Brand": "Puma",
+    "price": 777.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/81JNVkaOmrL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 2.5,
+      "count": 177
+    }
+  },
+  {
+    "id": 21,
+    "Brand": "Puma",
+    "price": 888.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/81JNVkaOmrL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 3.5,
+      "count": 177
+    }
+  },
+  {
+    "id": 22,
+    "Brand": "Adidas",
+    "price": 668.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61XnPWdRAWL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 4.2,
+      "count": 158
+    }
+  },
+  {
+    "id": 23,
+    "Brand": "Zara",
+    "price": 225.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61os5unWZHL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 3.8,
+      "count": 258
+    }
+  },
+  {
+    "id": 24,
+    "Brand": "Adidas",
+    "price": 456.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41-roeXYabL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 4.8,
+      "count": 445
+    }
+  },
+  {
+    "id": 25,
+    "Brand": "Majestic",
+    "price": 666.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/31oHI2YairL._AC._SR360,460.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 3.9,
+      "count": 148
+    }
+  },
+  {
+    "id": 26,
+    "Brand": "Kalvin Clein",
+    "price": 1556.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61KNBTw4K8S._AC_UL480_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 4.9,
+      "count": 359
+    }
+  },
+  {
+    "id": 26,
+    "Brand": "Zara",
+    "price": 889.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61DGAlvxRLL._AC_UL480_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "20%",
+    "rating": {
+      "rate": 3.9,
+      "count": 258
+    }
+  },
+  {
+    "id": 27,
+    "Brand": "Adidas",
+    "price": 259.95,
+    "Gender": "Men",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/51hflOoXp7L._AC_UL480_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 3.7,
+      "count": 222
+    }
+  },
+  {
+    "id": 28,
+    "Brand": "Allen Solly",
+    "price": 959.95,
+    "Gender": "Men",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/71ybwWf4EpL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 3,
+      "count": 144
+    }
+  },
+  {
+    "id": 29,
+    "Brand": "Color Plus",
+    "price": 2225,
+    "Gender": "Men",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/61FleZG8eFL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 4.9,
+      "count": 247
+    }
+  },
+  {
+    "id": 30,
+    "Brand": "Nike",
+    "price": 7.95,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/7198O5ms1tL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 31,
+    "Brand": "Levi's",
+    "price": 29.95,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51uUF7JYecL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 32,
+    "Brand": "Allen Solly",
+    "price": 999.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/81kWJgf+MAL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 33,
+    "Brand": "Wrangler",
+    "price": 415.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61Hy9AEQo2L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 34,
+    "Brand": "Puma",
+    "price": 415.99,
+    "Gender": "Kids",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/71KXBHx3cPS._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 35,
+    "Brand": "Puma",
+    "price": 1200.99,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/613ZfP0BI7L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 2.2,
+      "count": 245
+    }
+  },
+  {
+    "id": 36,
+    "Brand": "Jockey",
+    "price": 800.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/61v6s3wgrgL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 2.2,
+      "count": 245
+    }
+  },
+  {
+    "id": 37,
+    "Brand": "Pepe Jeans",
+    "price": 1200.99,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/41VgddGfPTL._AC_UL480_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "30%",
+    "rating": {
+      "rate": 4.7,
+      "count": 245
+    }
+  },
+  {
+    "id": 38,
+    "Brand": "Jockey",
+    "price": 564.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41VgddGfPTL._AC_UL480_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "10%",
+    "rating": {
+      "rate": 2.2,
+      "count": 245
+    }
+  },
+  {
+    "id": 39,
+    "Brand": "Puma",
+    "price": 888.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41LOVBUtEtL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.7,
+      "count": 498
+    }
+  },
+  {
+    "id": 40,
+    "Brand": "Alice",
+    "price": 878.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51CbHbUOW2L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 3.9,
+      "count": 156
+    }
+  },
+  {
+    "id": 41,
+    "Brand": "Generic",
+    "price": 339,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41dAENhWfmL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "90%",
+    "rating": {
+      "rate": 4.5,
+      "count": 115
+    }
+  },
+  {
+    "id": 42,
+    "Brand": "Denzie",
+    "price": 559,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/81+hcWIhl8L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "90%",
+    "rating": {
+      "rate": 4.7,
+      "count": 228
+    }
+  },
+  {
+    "id": 43,
+    "Brand": "Puma",
+    "price": 600,
+    "Gender": "Kids",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/418-eQJvJcL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "90%",
+    "rating": {
+      "rate": 4.5,
+      "count": 148
+    }
+  },
+  {
+    "id": 44,
+    "Brand": "Pepilo",
+    "price": 700,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51ZyGWsJ2PL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 3.9,
+      "count": 248
+    }
+  },
+  {
+    "id": 45,
+    "Brand": "Beebay",
+    "price": 255,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/71cAAQytbsL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 4.3,
+      "count": 177
+    }
+  },
+  {
+    "id": 46,
+    "Brand": "Generic",
+    "price": 377.99,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/4183UNVOplL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 3.9,
+      "count": 225
+    }
+  },
+  {
+    "id": 47,
+    "Brand": "Puma",
+    "price": 255.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/41dAENhWfmL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 3.5,
+      "count": 198
+    }
+  },
+  {
+    "id": 48,
+    "Brand": "Alice",
+    "price": 455.99,
+    "Gender": "Kids",
+    "category": "Shirt",
+    "image": "https://m.media-amazon.com/images/I/51CbHbUOW2L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 3.5,
+      "count": 198
+    }
+  },
+  {
+    "id": 59,
+    "Brand": "3Bros",
+    "price": 1156,
+    "Gender": "Kids",
+    "category": "Trouser",
+    "image": "https://m.media-amazon.com/images/I/41nVkbwl8bL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 4.8,
+      "count": 168
+    }
+  },
+  {
+    "id": 60,
+    "Brand": "Puma",
+    "price": 1200.99,
+    "Gender": "Kids",
+    "category": "Jacket",
+    "image": "https://m.media-amazon.com/images/I/31oDpIBxZ-L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 5.6,
+      "count": 267
+    }
+  },
+  {
+    "id": 61,
+    "Brand": "Arrow",
+    "price": 109.95,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kj0bp8w0-0/salwar-kurta-dupatta/x/b/e/xxl-165a-bae-s-wardrobe-original-imafyzbmytcr5fhj.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "70%",
+    "rating": {
+      "rate": 3,
+      "count": 120
+    }
+  },
+  {
+    "id": 62,
+    "Brand": "Puma",
+    "price": 22.3,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kggviq80-0/kurta/9/w/d/xs-white-a595140-ada-original-imafwpywhnhuz4km.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 63,
+    "Brand": "Puma",
+    "price": 55.99,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/s/f/n/xl-kk8044-grey-stado-original-imagjvjpjuuweth3.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "50%",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 64,
+    "Brand": "Puma",
+    "price": 15.99,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kqfj1jk0/kurta/5/f/0/xs-brick-red-a411207-ada-original-imag4fx6gxkqzmkp.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "60%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 65,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "Women",
+    "category": "Trouser",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kvfkivk0/kurta/t/w/k/l-lemon-a411334-ada-original-imag8c6mfcucygyx.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "80%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 66,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "Women",
+    "category": "Trouser",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/w/h/4/xl-jpmrh1007-black-cayman-original-imagh8yr83fgtup2.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "10%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 67,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/n/x/j/m-4695a1566lemon-neerus-original-imagg8j275nhazst.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 68,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/k6jnfrk0/kurti/a/u/j/xs-black-a217613-ada-original-imafzzacx4svypmc.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "10%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 69,
+    "Brand": "Puma",
+    "price": 15.99,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/2/o/v/s-22maf11497-920526-w-original-imaggrehmvn6ggjj.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "10%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 70,
+    "Brand": "Michael Kors",
+    "price": 114,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/9/4/b/xs-22maf11489-910392-w-original-imaggjhszbprz4hh.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "10%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 71,
+    "Brand": "Wrangler",
+    "price": 599,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/l/p/f/l-ews2ku0857a-soch-original-imagg9hgnhzrzax7.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "30%",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 72,
+    "Brand": "Michael Kors",
+    "price": 114,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/jrjizrk0/kurti/z/6/h/xs-maroon-a225023-ada-original-imafd82xxegrukyv.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "35%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 73,
+    "Brand": "Wrangler",
+    "price": 599,
+    "Gender": "Women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/w/h/y/5xl-t873-0222-mustard-original-imaggp9nxpd8xvng.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "35%",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 74,
+    "Brand": "Allen Solly",
+    "price": 999.99,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktuewsw0/fabric/o/r/f/yes-2-25-m-unstitched-2-m-2-5-m-us1541-indo-essence-original-imag73gwawba2kyn.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "35%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 75,
+    "Brand": "Allen Solly",
+    "price": 56.99,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktep2fk0/fabric/5/2/o/yes-2-25-m-unstitched-2-m-2-5-m-us1514-indo-essence-original-imag6r9dmqrfgf2s.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 76,
+    "Brand": "Levi's",
+    "price": 29.95,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/fabric/v/t/8/yes-na-semi-stitched-na-maroon-rv50112-rv-fashion-gallery-original-imaghbzfd4huaefp.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 77,
+    "Brand": "Allen Solly",
+    "price": 29.95,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kiyw9e80-0/fabric/h/2/p/yes-unstitched-us1746-indo-essence-original-imafyn9zzufbj3pu.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 2.9,
+      "count": 240
+    }
+  },
+  {
+    "id": 78,
+    "Brand": "Arrow",
+    "price": 109.95,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/fabric/n/x/u/yes-2-25-m-unstitched-2-2-m-fvvarsha3763-3254-fashion-valley-original-imagh538vhhyfhh8.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 3,
+      "count": 120
+    }
+  },
+  {
+    "id": 79,
+    "Brand": "Puma",
+    "price": 22.3,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kiyw9e80-0/fabric/i/4/x/yes-unstitched-us1751-indo-essence-original-imafynb8kfh5nff7.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 80,
+    "Brand": "Puma",
+    "price": 55.99,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/kfr5le80-0/fabric/v/q/v/yes-unstitched-us1700-indo-essence-original-imafw53fh3hyxg9k.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 81,
+    "Brand": "Puma",
+    "price": 15.99,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktep2fk0/fabric/h/i/i/yes-2-25-m-unstitched-2-m-2-5-m-us1510-indo-essence-original-imag6r7zxzsuudbd.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 82,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktop5e80/fabric/p/t/y/yes-2-25-m-unstitched-2-m-2-5-m-us1532-indo-essence-original-imag6yv3jagb9peu.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 83,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktg4ia80/fabric/f/6/t/yes-2-25-m-unstitched-2-m-2-5-m-us1529-indo-essence-original-imag6sgkq2rtznr7.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "25%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 84,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/fabric/v/t/8/yes-na-semi-stitched-na-maroon-rv50112-rv-fashion-gallery-original-imaghbzfd4huaefp.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "85%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 85,
+    "Brand": "Nike",
+    "price": 695,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktep2fk0/fabric/5/2/o/yes-2-25-m-unstitched-2-m-2-5-m-us1514-indo-essence-original-imag6r9dmqrfgf2s.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "75%",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 86,
+    "Brand": "Puma",
+    "price": 15.99,
+    "Gender": "women",
+    "category": "Kurti",
+    "image": "https://rukminim1.flixcart.com/image/612/612/ktuewsw0/fabric/o/r/f/yes-2-25-m-unstitched-2-m-2-5-m-us1541-indo-essence-original-imag73gwawba2kyn.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 87,
+    "Brand": "Michael Kors",
+    "price": 114,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/q/d/0/free-sari-0050-23-bangasree-unstitched-original-imaghyyzxwrteghg.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "75%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 88,
+    "Brand": "Wrangler",
+    "price": 599,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/f/i/r/free-sari-0052-23-bangasree-unstitched-original-imaghyf6skwgqz23.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "95%",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 89,
+    "Brand": "Michael Kors",
+    "price": 114,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/l4k7ssw0/sari/v/j/b/free-dark-green-embroidery-siqunse-siroski-work-staovin-original-imagfftutxnhdaxm.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 90,
+    "Brand": "Wrangler",
+    "price": 599,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/l4k7ssw0/sari/f/y/m/free-magenta-sequnce-staovin-unstitched-original-imagffgucxgyynrw.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "25%",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 91,
+    "Brand": "Allen Solly",
+    "price": 999.99,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/l/2/a/free-srpxdesr10492c-soch-unstitched-original-imagkw4fvvygyy7x.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "35%",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 92,
+    "Brand": "Allen Solly",
+    "price": 8556.99,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-mahogany-maroon-banarasi-saree-silk-saree-online-31828994097345.jpg?v=1648552965",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "45%",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 93,
+    "Brand": "Levi's",
+    "price": 6229.95,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/l41n2q80/sari/i/o/m/free-srpxdesr15295-soch-unstitched-original-imagfyxkzrjyj5mz.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "65%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 94,
+    "Brand": "Allen Solly",
+    "price": 2229.95,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/r/p/f/free-srpxocsr09988c-soch-unstitched-original-imagk8r525pbgszy.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "75%",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 95,
+    "Brand": "Nike",
+    "price": 900.85,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/z/t/e/free-srpxocsr15316-soch-unstitched-original-imaghb7keqgvmpgj.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "55%",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 96,
+    "Brand": "Nike",
+    "price": 700.95,
+    "Gender": "women",
+    "category": "Saree",
+    "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/d/v/w/free-f2anmcsr0215b-navyasa-unstitched-original-imaggwdwq4phpcz9.jpeg?q=70",
+    "description": "Wash dark colours separately, do not bleach, tumble dry low, do not iron on print 100% cotton",
+    "Discount": "35%",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  }
+]

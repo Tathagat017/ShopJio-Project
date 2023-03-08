@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+
+    <link rel="stylesheet" href="./seeJio/styles/index.css">
+    <style>
+      /* All Your css for Order page goes here  */
+
+      * {
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid; */
+        box-sizing: border-box;
+      }
+
+
+::-webkit-scrollbar {width: 9px; height: 9px; background: #ffffff; }
+::-webkit-scrollbar-thumb { background-color: #000000; -webkit-border-radius: 1ex; }
+      
+      #order-container {
+        display: grid;
+        grid-template-rows: repeat(auto, 1fr);
+        gap: 10px;
+        overflow: auto;
+        height: 95vh;
+        margin-right:0.5%;
+        
+      }
+
+      .card {
+        margin: auto;
+        width: 98%;
+        height: 48vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 2%;
+        margin-left: 0.2%;
+
+        /*  */
+
+        border: 1px hidden black;
+        text-align: center;
+        font-variant: small-caps;
+        word-spacing: 2%;
+        background-color: rgb(233, 233, 233);
+        line-height: 80%;
+        margin-top: 1.5%;
+        margin-bottom: .8%;
+        border-radius: 5%;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+          rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        text-align: center;
+
+        background: rgb(207, 189, 226);
+        background: linear-gradient(
+          90deg,
+          rgba(207, 189, 226, 1) 0%,
+          rgba(255, 233, 165, 1) 100%
+        );
+        cursor: pointer;
+        color: aliceblue;
+        
+      }
+
+      #textHolder {
+        text-align: center;
+        /* background: rgb(131, 58, 180);
+        background: linear-gradient(
+          90deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(253, 29, 29, 1) 50%,
+          rgba(252, 176, 69, 1) 100%
+        ); */
+        /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+      
+      }
+
+      #textHolder > p,
+      h3 {
+        margin-top: 5%;
+        color: #000000;
+      }
+      #textHolder > h3,
+      h4 {
+        color: rgb(0, 0, 0);
+        text-shadow: 1em;
+        text-emphasis: bold;
+        font-size: larger;
+      }
+
+      .card button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1%;
+        width: 14%;
+        height: 10%;
+        border-radius: 15px;
+        margin-left: 2%;
+        transition: 0.1s;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: large;
+        border: 1px solid black;
+        background-color: #000000;
+        padding:1%;
+        color: wheat;
+        text-align: center;
+transition: transform 0.3s;
+        /*  */
+      }
+     .card button:hover {
+        cursor: pointer;
+        background-color: #000000;
+        color: wheat;
+        border-radius: 50px;
+        transform: scale(1.1);
+      }
+
+         #textHolder  button:hover {
+        cursor: pointer;
+        background-color: #000000;
+        color: aliceblue
+        border-radius: 50px;
+      }
+
+      .card img {
+        width: 30vw;
+        height: 100%;
+      }
+
+      #banner1 {
+        width: 100%;
+      }
+
+      #banner1 img {
+        width: 100%;
+      }
+
+      #banner2 {
+        margin-top: 1%;
+        width: 100%;
+        height: 20%;
+      }
+
+      #banner2 img {
+        width: 100%;
+        height: 80%;
+      }
+
+      #displayFlex {
+        display: flex;
+        align-items: center;
+      }
+
+      #checkout p,
+      h5,
+      input,
+      label,
+      h4,
+      button,
+      select {
+        margin-top: 4%;
+      }
+
+      .card select {
+        margin-left: 1%;
+        border: none;
+        font-size: large;
+      }
+
+      #DeliveryFee {
+        text-decoration: line-through;
+      }
+
+      #checkout button {
+        display: block;
+        width: 15vw;
+        height: 5vh;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+        background-color: #000000;
+        color: aliceblue;
+        border-radius: 15px;
+        border: none;
+        transition: transform 0.2s;
+      }
+
+      #checkout button:hover {
+        transform: scale(1.03);
+        background-color: black;
+        color: wheat;
+      }
+
+      #checkout {
+        padding: 1%;
+        /* text-align: center; */
+        border-radius: 25px;
+        margin-right: 1%;
+        background: rgb(207, 189, 226);
+        background: radial-gradient(
+          circle,
+          rgba(207, 189, 226, 1) 0%,
+          rgba(255, 233, 165, 1) 100%
+        );
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+          rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        overflow: hidden;
+      }
+
+      #couponInput {
+        display: block;
+        margin: auto;
+        width: 18vw;
+        color:black;
+      }
+
+      #cupon {
+        text-align: center;
+        margin-bottom: 2%;
+      }
+
+      #checkout h4 {
+        color: #000000;
+      }
+
+      .card select {
+        background-color: transparent;
+      }
+      
+      #navbar-input{
+        margin-top :-0.4%;
+      }
+
+      #navbar-button{
+        border:1px solid red;
+      }
+
+      #body{
+            height: 45vh;
+           
+        }
+
+         #grid  >div > h4{
+          color: white;
+          margin-bottom: 1%;
+         }
+
+        #grid  >div > a{
+          margin-top: 5%;
+          line-height: 25px;
+        }
+    #paymentBelowFooter img{
+       width: 100%;
+       height: 25vh;
+       display: block;
+       margin: auto;
+    }
+
+
+    @media only screen and (max-width: 720px){
+	body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #navbar{
+        position: static;
+        display: none;
+    }
+       #displayFlex{
+      width: 90%;
+    }
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+}
+@media only screen and (min-width:720px)  and (max-width: 900px){
+	body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #navbar{
+        position: static;
+    }
+
+    #displayFlex{
+      width: 90%;
+    }
+}
+
+
+
+    </style>
+   
+  </head>
+  <body>
+        <nav>
+    <div>
+        <div id="navbar">
+            <div id="navbar-left">
+                
+                <img src="./seeJio/finalajio.jpeg" alt="">
+            </div>
+            <div id="navbar-right">
+                <div id="right-upper">
+                     <a href="login.html"><p id="ru">Sign In / Join AJIO</p></a>  
+                    <a href=""><p id="ru">Customer Care</p></a>
+                    <!-- <button id="navbar-button">Visit AJIOLUXE</button> -->
+                </div>
+                <div id="right-lower">
+                    <nav>
+                        <UL>
+                    <li id="rl">
+                         <a href="seeJio\mensClothing.html">  MEN </a>
+                         <div class="megamenu">
+                            <div class="megamenuitems">
+                                <h4>CLOTHING</h4>
+                                <br>
+                                <h4>FOOTWEAR</h4>
+                                <br>
+                                <h4>ACCESSORIES</h4>
+                                <br>
+                                <h4>ALL THATS NEW</h4>
+                                <br> 
+                                <ul>
+                                    <li>Clothing</li>
+                                    <li>Footwear</li>
+                                    <li>Accessories</li>
+                                </ul>  
+                                <br>
+                                <h4>AJIO GLOBAL</h4>
+                                <br>
+                                <h4>WINTERWEAR</h4>
+                                <br>       
+                                                         
+                                
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <ul>
+                                    <li>BackPacks</li>
+                                    <li>Bags & Wallets</li>
+                                    <li>Belts</li>
+                                    <li>Caps & Hats</li>
+                                    <li>Fashion</li>
+                                    <li>Luggage</li>
+                                    <li>Socks</li>
+                                    <li>Wathes</li>
+                                    <li>Fashion</li>
+                                    <li>Luggage</li>
+                                    <li>Socks</li>
+                                </ul>
+                            
+                         </div>
+                         <div class="megamenuitem">
+                            <h4 class="hd">FASHION</h4>
+                            <br>
+                            <ul>
+                                <li>BackPacks</li>
+                                <li>Bags & Wallets</li>
+                                <li>Belts</li>
+                                <li>Caps & Hats</li>
+                                <li>Fashion</li>
+                                <li>Luggage</li>
+                                <li>Socks</li>
+                                <li>Wathes</li>
+                                <li>Briefs</li>
+                                <li>Trunks & Boxers</li>
+                                  <li>Vests</li>
+                            </ul>
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">FEATURED</h4>
+                                <br>
+                                <ul>
+                                    <li>Begs Under 1499</li>
+                                    <li>Footwear Under 1499</li>
+                                    <li>Jeans Under 1199</li>
+                                    <li>Shorts & 3/4ths Under 699</li>
+                                </ul>
+                                <br>
+                               <h4 class="hd"> #AJIORECOMMENDS</h4>
+                               <br>
+                               <ul>
+                                <li>Play Time</li>
+                                <li>Caps & Hats</li>
+                                <li>Fashion</li>
+                                <li>Luggage</li>
+                               </ul>
+                            </div>
+                            <div class="megamenuitem">
+                                <h4 class="hd">WESTERN WEAR</h4>
+                                <br>
+                                <ul>
+                                    <li>Jackets & Coats</li>
+                                    <li>Jeans</li>
+                                    <li>Shirts</li>
+                                    <li>Shorts & 3/4ths</li>
+                                    <li>Sweatshirts  & Hoodies</li>
+                                    <li>Track Pants</li>
+                                    <li>T-Shirts</li>
+                                </ul>
+                              </div>      
+                        </li>
+                    <li  id="rl"> 
+                        <a href="./womenClothing.html"> WOMEN </a>
+                <div class="megamenu">
+                 <div class="megamenuitems">
+                    <h4>CLOTHING</h4>
+                    <br>
+                    <h4>FOOTWEAR</h4>
+                    <br>
+                    <h4>ACCESSORIES</h4>
+                    <br>
+                    <h4>ALL THATS NEW</h4>
+                    <br>
+                    <h4>WINTERWEAR</h4>
+                    <br>
+                    <h4>AJIO GLOBAL</h4>
+                    <br>
+                    <h4>BEAUTY</h4>
+                    <br>
+                    <h4>ATHELEISURE</h4>
+                    <br>
+                    
+                    
+    
+    
+                    </div> 
+                    <div class="megamenuitem">
+                        <h4 class="hd">ETHNIC WEAR</h4>
+                        
+                        <ul>
+                            <li>Kurtas</li>
+                            <li>Dress Material</li>
+                            <li>Salwars & Chudidars</li>
+                            <li> Kurtis & Tunics</li>
+                            <li>Sarees</li>
+                            <li>Dupataas</li>
+                            <li>Kurta Suit Sets</li>
+                            <li>Blouse</li>
+                            <li>Leggins</li>
+                            <li>Skirt & Ghagras</li>
+                            <li>Dresses & Gowns</li>
+                        
+                        </ul>                                
+                    </div>
+                    <div class="megamenuitem">
+                        <h4 class="hd">FUSION WEAR</h4>
+                        
+                        <ul>
+                            <li>Caps & Hats</li>
+                            <li>Fashion</li>
+                            <li>Luggage</li>
+                            <li>Socks</li>
+                            <li>Wathes</li>
+                            <li>Kurtas</li>
+                            <li>Kurtis & Tunics</li>
+                            <li>Pants & Shorts</li>
+                            <li>Jackets & Shrugs</li>
+                            <li>Shirts Tops and Tunics</li> 
+                            <li>Blouse</li>     
+                                                           
+                        
+                        </ul>                                
+                    </div>  
+                    <div class="megamenuitem">
+                        <h4 class="hd">JEWELLERY</h4>  
+                        <ul>
+                            <li>Gold And Silver</li>
+                            <li>Gold And Diamonds</li>
+                            <li>Silver Jewellery</li>
+                            <li>Fashion Jewellery</li>
+                        </ul>
+                        <h4 class="hd">LINGERIE & INNERWEAR</h4>
+                        <ul>
+                            <li>Bras</li>
+                            <li>Panties</li>
+                            <li>Camisoles & Slips</li>
+                            <li>Maternity Wear </li>
+                            <li> Thermal Wear</li>
+                        </ul>                                   
+                        </div>
+    
+                        <div class="megamenuitem">
+                            <h4 class="hd">FOOTWEAR</h4>
+                            
+                            <ul>
+                                <li>Casual Shoe</li>
+                                <li>Flat Sandals</li>
+                                <li>Sports Shoes</li>
+                                <li>Flip Flop & Slippers</li>
+                                <li>Heeled Sandals</li>
+                                <li>Boots</li>
+                                <li>Ballet shoe</li> 
+                                <li> Pointe shoe</li>
+                                <LI>   Bast shoe </LI>
+                                <LI> Blucher shoe </LI>
+                            </ul>         
+                    </li>
+    
+    
+    
+    
+    
+    
+                    <li id="rl">
+                        <a href="#"> KIDS </a>
+                        <div class="megamenu">
+                            <div class="megamenuitems">
+                                <h4>NEW IN:CLOTHING</h4>
+                                <br>
+                                <h4>NEW IN :FOOTWEAR & ACCS</h4>
+                                <br>
+                                <h4>INNERWEAR & SLEEPWEAR</h4>
+                                <br>
+                                <h4>BOYS</h4>
+                                <ul>
+                                <li>Denims & Trousers</li>
+                                <li>Joggers & Track Pants</li>
+                                <li>Outwears </li>
+                                <li> Shirts</li>
+                                <li>Shorts & 3/4ths</li>
+                                <li>T-Shirts</li>         
+                                <h4 class="hd">SHOP BY AGE</h4>
+                                <ul>
+                                    <li>0 To 2 Years</li>
+                                    <li>2 To 5 Years</li>
+                              
+                                </ul>
+    
+                        </div>  
+                        
+                        <div class="megamenuitem">
+                            <h4 class="hd">FEATURED</h4>
+                            <ul>
+                            <li>Denims Under 799</li>
+                            <li>Shirts Under 599</li>
+                            <li>T-Shirts Under 399</li>
+                
+                        </ul>
+                        <h4 class="hd">GIRLS</h4>
+                        <ul>
+                            <li>Dresses & Frocks</li>
+                            <li>Jeans & Jeggings</li>
+                            <li>Leggins</li>
+                            <li>Outerwaer</li>
+                            <li>Skirt & Shorts</li>
+                            <li>Tops & T-Shirts</li>
+                            <li>Outwears </li>
+                            
+                        </ul>                  
+                        </div>
+                        <div class="megamenuitem">
+                            <h4 class="hd">DENIMS</h4>
+                            <ul>
+                            <li>Denims Under 799</li>
+                            <li>Shirts Under 599</li>
+                            <li>T-Shirts Under 399</li>
+                
+                        </ul>
+                        <h4 class="hd">SLEVES</h4>
+                        <ul>
+                            <li>Dresses & Frocks</li>
+                            <li>Jeans & Jeggings</li>
+                            <li>Leggins</li>
+                            <li>Outerwaer</li>
+                            <li>Skirt & Shorts</li>
+                            <li>Tops & T-Shirts</li>
+                        </ul>
+                        </div>
+                        <div class="megamenuitem">
+                            <h4 class="hd">CATOGORY</h4>
+                            <ul>
+                            <li>Dresses Under 499</li>
+                            <li>Tops Under 399</li>
+    
+                        </ul>
+                       <h4 class="hd"> TOYS AND BABYCARE </h4>
+                       <ul>
+                        <li>Action-Figurine& Collection</li>
+                        <li>Creative & Educational Toys</li>
+                        <li>Gaming, Robot & Vehicle</li>
+                        <li>Infant Toys</li>
+                        <li>Role & Pretend Play</li>
+                        <li>School,Party Supplies & Books</li>
+                        <li>Soft Toys</li>
+                        <li>Toy-Guns & Accessories</li>
+    
+                       </ul>
+                        </div>
+    
+                    </li> 
+                    <li id="rl">
+                         <a href="#"> INDIE </a>
+                         <div class="megamenu">
+                            <div class="megamenuitem">
+                                <h4 class="hd">CLOTHING</h4>
+                                <br>
+                                <h4 class="hd">FOOTWEAR</h4>
+                                <br>
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <h4 class="hd">ALL THATS NEW</h4>
+                                <br>
+                                <h4 class="hd">WINTERWEAR</h4>
+                                <br>
+                                <h4 class="hd">AJIO GLOBAL</h4>
+                                <br>
+                                <h4 class="hd">BEAUTY</h4>
+                                <br>
+                                <h4 class="hd">ATHELEISURE</h4>
+                                                       
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">ETHNIC WEAR</h4>
+                    
+                    <ul>
+                        <li>Kurtas</li>
+                        <li>Dress Material</li>
+                        <li>Salwars & Chudidars</li>
+                        <li> Kurtis & Tunics</li>
+                        <li>Sarees</li>
+                        <li>Dupataas</li>
+                        <li>Kurta Suit Sets</li>
+                        <li>Blouse</li>
+                        <li>Leggins</li>
+                        <li>Skirt & Ghagras</li>
+                        <li>Infant Toys</li>
+                        
+                    </ul>                           
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">REGIONAL SPECIALITIES</h4>
+                    
+                    <ul>
+                        <li>Curtains</li>
+                        <li>Dress Material</li>
+                        <li>Table Linen</li>
+                        <li> Rugs, Carpets & Dhurries</li>
+                        <li>Sarees</li>
+                        <li>Ajrak</li>
+                        <li>Dress Suit</li>
+                        <li>Blammer</li>
+                        <li>Towel Sets</li>
+                        <li>Vases</li>
+                        <li>Infant</li>
+                          
+                    </ul>                           
+                   </div>
+                   <div class="megamenuitem">
+                    <h4 class="hd">FEATURED BRANDS</h4>
+                    
+                    <ul>
+                        <li>Bath Towel & Robes</li>
+                        <li>Hand & Face Towels</li>
+                        <li>Table Linen</li>
+                        <li>Towel Sets</li>
+                        <li>Vases</li>
+                        <li>Infant</li>
+                        <li>Role & Pretend</li>
+                        <li> Rugs, Carpets & Dhurries</li>
+                        <li>Holders & More</li>
+                        <li>Ajrak</li>
+                        <li>GIFT For Everyone Under 999</li>
+                        
+                        
+                      </div>  
+                        </li>
+    
+                    <li id="rl">
+                        <a href="#">HOME AND KITCHEN </a> 
+                        <div class="megamenu">
+                            <div class="megamenuitem">
+                   
+                                <h4 class="hd">FRIDGE</h4>
+                                <br>
+                                <h4 class="hd">THERMO</h4>
+                                <br>
+                                <h4 class="hd">ACCESSORIES</h4>
+                                <br>
+                                <h4 class="hd">ALL THATS NEW</h4>
+                                <br>
+                                <h4 class="hd">WINGLASS</h4>
+                                <br>
+                                <h4 class="hd">AJIO GLOBAL</h4>
+                                <br>
+                                <h4 class="hd">BED LILEN</h4>
+                                <br>
+                                <h4 class="hd">ATHELEISURE</h4>
+                                    
+                                
+            </div>  
+            <div class="megamenuitem">
+                <h4 class="hd">DINING</h4>
+                <ul>
+                    <li>Plates</li>
+                    <li>Material</li>
+                    <li>alwar & didars</li>
+                    <li> Tunics</li>
+                    <li>Glasses</li>
+                    <li>Dupataas</li>
+                    <li>Plate Sets</li>
+                    <li>Ovan</li>
+                    <li>Decor</li>
+                    <li>kitchen & Stuffs</li>
+                    <li>alwar & didars</li>
+                    
+                </ul>                  
+            </div>
+            <div class="megamenuitem">
+                <h4 class="hd">HOME DECCOR</h4>
+                
+                <ul>
+                    <li>Wall Decor</li>
+                    <li>Wall nail</li>
+                    <li>Camisoles & Slips</li>
+                    <li>Mater Walt</li>
+                    <li> Thermal</li>
+                </ul>
+                <h4 class="hd">ACCESSORIES</h4>
+        
+                <ul>
+                    <li>Cooker & Frames</li>
+                    <li>Wathes</li>
+                    <li>Bag, Belts And Wathes</li>
+                    <li>Stoles And Scraves</li>
+                    <li>Socks</li>
+                    
+                </ul>
+                </div>
+                <div class="megamenuitem">
+                    <h4 class="hd">PRESSURE COOKER</h4>
+                    <ul>
+                        <li>Casual Shoe</li>
+                        <li>Flat Sandals</li>
+                        <li>Sports Shoes</li>
+                        <li>Flip Flop & Slippers</li>
+                        <li>Heeled Sandals</li>
+                        <li>Boots</li>
+                        <li>alwar & didars</li>
+                        <li> Tunics</li>
+                        <li>Glasses</li>
+                        <li>Dupataas</li>
+                        <li>Plate Sets</li>
+                        
+                    </ul>
+                 </div>   
+                 <div class="megamenuitem">
+                    <h4 class="hd">BED LINEN</h4>
+                    <ul>
+                        <li>Bedsheets</li>
+                        <li>Flat Sandals</li>
+                        <li>Bedding Sets</li>
+                        <li>Blankets, Dohars & Quilts</li>
+                        <li>Mattress Protectors</li>
+                        <li>Quilt & Duvet Covers</li>
+                        <li>Cushions</li>
+                        <li>Bakeware</li>
+                        <li>Kitchen Tools</li>
+                        <li>Kitchen Organisers</li>
+                        
+                    </li> 
+                </UL>
+                </nav>          
+                    <input id="navbar-input" type="text" placeholder="Search SHOPJIO">
+                    <img id="bar-img" class="cartButton" src="https://i.pinimg.com/originals/fc/fa/0c/fcfa0c367d786deeaf42dec2fda70e47.png" alt="">
+                    <img id="bar-img"  class="favButton"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHuCTCHiz7-sR9YwmlVHDZ0UXU-tcjDRIzmGlub9of64k0gsAJXe29kR-9Bpfj1f_YAg&usqp=CAU" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="banner1">
+      <img src="./seeJio/misc/banner1_cart.avif" alt="federal Bank Discount" />
+    </div>
+    <div id="displayFlex">
+      <div id="order-container" class="scrollbar-auto"">
+        <!-- Here Append All the Order Cards here-->
+      </div>
+
+      <div id="checkout">
+        <h4>Order Details</h4>
+        <p id="bagTotal">Bag Total</p>
+        <p id="BagDiscount">Bag Discount</p>
+        <p>Convenience Fee <a href="#">What's this?</a></p>
+        <p>
+          Delivery Fee &nbsp;
+          <span id="DeliveryFee"> ₹99.00 </span>Free
+        </p>
+        <h5 id="total">Order Total :- <span id="order-total">0</span></h5>
+        <button id="proceed">Proceed to Shipping</button>
+        <div id="cupon">
+          <h5>Apply Coupon</h5>
+          <input type="text" value="" id="couponInput" />
+          <button id="cpn-btn">Apply Coupon</button>
+          <h5>Applicable Coupons</h5>
+          <label for="ApplicableCoupons">
+            <input type="radio" value="FREEDEL" id="coupon1" />
+            Saving: ₹ 200 with FREEDEL</label
+          >
+          <p>Free Shipping For Limited Period. <a href="">View T & C</a></p>
+        </div>
+      </div>
+    </div>
+    <div id="banner2"><img src="./seeJio/misc/banner2_cart.jpg" alt="" /></div>
+ <!-- footer -->
+  <div id="body">
+    <div id="grid">
+        <div>
+            <h4>Ajio</h4>
+            <a href="">Who We Are</a><br>
+            <a href=""><p> Join Our Team </p></a>
+            <a href=""><p>Terms & Conditions</p></a>
+            <a href=""><p>We Respect Your Privacy</p></a>
+            <a href=""><p>Fees & Payments</p></a>
+            <a href=""><p>Returns & Refunds Policy</p></a>
+            <a href=""><p>Promotions Terms & conditions</p></a>
+        </div>
+
+        <div>
+            <h4>Help</h4>
+            <a href="">Track Your Order</a><br>
+            <a href=""><p>Frequently Asked Questions</p></a>
+            <a href=""><p>Returns</p></a>
+            <a href=""><p>Cancellations</p></a>
+            <a href=""><p>Payments</p></a>
+            <a href=""><p>Customer Care</p></a>
+            <a href=""><p>How Do I Reedem My Coupon</p></a>
+        </div>
+
+        <div>
+            <h4>Shop By</h4>
+            <a href="">Men</a><br>
+            <a href=""><p>Women</p></a>
+            <a href=""><p>Kids</p></a>
+            <a href=""><p>Indie</p></a>
+            <a href=""><p>Stores</p></a>
+            <a href=""><p>New Arrivals</p></a>
+            <a href=""><p>Brand Directory</p></a>
+            <a href=""><p>Home</p></a>
+            <a href=""><p>Collections</p></a>
+        </div>
+
+        <div>
+            <h4>Follow us</h4>
+            <a href="">Facebook</a><br>
+            <a href=""><p>Instagram-Ajiolife</p></a>
+            <a href=""><p>Instagram-AjioLUXE</p></a>
+            <a href=""><p>Twitter</p></a>
+            <a href=""><p>Pinterest</p></a>
+            
+        </div>
+       
+    </div>
+    </div> 
+    </div>
+    <hr>
+   <div id="paymentBelowFooter">
+        <img src="./seeJio/misc/Screenshot 2023-01-22 214118.jpg" alt="">
+    </div>
+  </body>
+  <script>
+    let container = document.getElementById("order-container");
+
+    let cartData = JSON.parse(localStorage.getItem("cart"));
+    if (cartData == null) {
+      cartData = [];
+    }
+    console.log(cartData);
+    display(cartData);
+
+    function display(data) {
+      container.innerHTML = null;
+      let cartValue = 0;
+      let OriginalCartValue = 0;
+      data.forEach((element, index) => {
+        OriginalCartValue += element.price * element.quantity;
+        let card = document.createElement("div");
+        card.setAttribute("class", "card");
+        let image = document.createElement("img");
+        image.setAttribute("src", element.image);
+        let textHolder = document.createElement("div");
+        textHolder.setAttribute("id", "textHolder");
+
+        let category = document.createElement("p");
+        category.innerText = element.category;
+
+        let title = document.createElement("h3");
+        title.innerText = element.Brand + "-" + category.innerText;
+
+        let desc = document.createElement("p");
+        desc.innerText = element.description;
+
+        let price = document.createElement("h4");
+        price.innerText = "Original Price" + " ₹  " + element.price;
+
+        let discount = document.createElement("p");
+        discount.innerText = "Offer Discount : " + element.Discount;
+
+        document.getElementById("BagDiscount").innerText =
+          "Offer Discount : " + element.Discount;
+        let finalPrice = document.createElement("h4");
+        let arrayedDis = element.Discount.split("");
+        arrayedDis.pop();
+        let final = Number(arrayedDis.join(""));
+        let newPrice = element.price - element.price * (final / 100);
+        newPrice = newPrice.toFixed(2);
+        finalPrice.innerText = "Price after Discount : ₹ " + newPrice;
+
+        let quantity = document.createElement("h4");
+        quantity.innerText = "Quantity this item in cart : " + element.quantity;
+
+        cartValue += newPrice * element.quantity;
+        textHolder.append(
+          title,
+          category,
+          desc,
+          price,
+          discount,
+          finalPrice,
+          quantity
+        );
+
+        let select = document.createElement("select");
+        ["Select Size", "S", "M", "L", "XXL"].forEach((size) => {
+          let option = document.createElement("option");
+          option.value = size;
+          option.innerText = size;
+          select.appendChild(option);
+        });
+
+        let increment = document.createElement("button");
+        increment.innerText = "+";
+
+        let decrement = document.createElement("button");
+        decrement.innerText = "-";
+
+        let Delete = document.createElement("button");
+        Delete.innerText = "Delete";
+
+        Delete.addEventListener("click", () => {
+          data = data.filter((el, ind) => {
+            if (index == ind) {
+              return false;
+            } else {
+              return true;
+            }
+          });
+          display(data);
+
+          localStorage.setItem("cart", JSON.stringify(data));
+          document.getElementById("order-total").innerText = cartValue;
+          window.location.reload();
+        });
+
+        increment.addEventListener("click", (e) => {
+          element.quantity = ++element.quantity;
+
+          localStorage.setItem("cart", JSON.stringify(data));
+          window.location.reload();
+        });
+
+        decrement.addEventListener("click", (e) => {
+          if (element.quantity > 0) element.quantity = --element.quantity;
+          else {
+            data = data.filter((ele) => {
+              if (ele.quantity <= 0) {
+                return false;
+              }
+            });
+            display(data);
+
+            localStorage.setItem("cart", JSON.stringify(data));
+            document.getElementById("order-total").innerText = cartValue;
+            window.location.reload();
+          }
+          localStorage.setItem("cart", JSON.stringify(data));
+          window.location.reload();
+        });
+
+        card.append(image, textHolder, select, increment, decrement, Delete);
+        container.append(card);
+        let couponApplied = document.querySelector("#couponInput");
+        let cpn = document.getElementById("cpn-btn");
+
+        let apply = document.getElementById("coupon1");
+
+        apply.addEventListener("change", () => {
+          console.log("tuin")
+          couponApplied.value = "FREEDEL";
+        });
+
+        cpn.addEventListener("click", () => {
+          if (couponApplied.value == "FREEDEL") {
+            cartValue = cartValue - 100;
+          }
+          console.log(cartValue);
+          document.getElementById("order-total").innerText =
+            cartValue.toFixed(2);
+        });
+
+        document.getElementById("order-total").innerText =
+          "With Discount :- " + "₹" + cartValue.toFixed(2);
+        document.getElementById("bagTotal").innerText =
+          "Bag Total ₹ " + OriginalCartValue.toFixed(2);
+      });
+    }
+
+    let cartButton = document.querySelector(".cartButton");
+cartButton.addEventListener("click", function () {
+  window.location.pathname = "cart.html";
+});
+
+let favButton = document.querySelector(".favButton");
+favButton.addEventListener("click", function () {
+  window.location.pathname = "favourites.html";
+});
+
+
+proceed.addEventListener("click",()=>{
+  window.location.pathname="cardPayment.html"
+});
+
+
+  </script>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    
+</head>
+<style>
+    #navbar{
+    height:72px;
+    width:100%;
+    border-top: 3px solid rgb(47,66,84);
+    display: flex;
+  
+
+}
+#navbar-left{
+    height:65px;
+    width:20%;
+    border:1px solid transparent;
+    margin-left: 80px;
+     /* margin-top: 20px; */
+    
+
+}
+#navbar-right{
+    height:100%;
+    width:60%;
+    border:1px solid transparent;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+
+}
+#right-upper{
+    height:50% ;
+    width:100%;
+    border:1px solid transparent;
+    display:flex;
+    justify-content: right;
+    gap:22px;
+    align-items: center;
+}
+#right-upper:hover{
+    cursor: pointer;
+}
+#right-lower{
+    height:50% ;
+    width:100%;
+    border:1px solid transparent;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:rgb(106,106,106);
+    margin-top: 3px;
+}
+#rl:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+#site-logo{
+    height:100%;
+    width:35%;
+    margin-left: 60px;
+}
+#navbar-button{
+    height:100%;
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+   
+}
+#navbar-input{
+    border-radius: 15px;
+    width: 250px;
+    height:25px;
+
+}
+#ru{
+    font-size: 12px;
+    color:rgb(106,106,106);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#navbar-image{
+    height:100px;
+    width:100%;
+    border:1px solid transparent;
+    margin-top: 10px;
+    
+}
+#navbar-img{
+    height:100%;
+    width:100%;
+}
+#bar-img{
+    height:100%;
+    width:4%;
+    cursor: pointer;
+    background-color: rgb(47,66,84);
+    color: white;
+}
+/* footer css */
+#body{
+            background-color: #2c4152;
+            margin-top:-8px;
+            height: 550px;
+        }
+        a{
+            color: #CCCCCC;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        h4{
+            font-size: 17px;
+            color: #CCCCCC;
+        }
+        a:hover{
+            /* color: blue; */
+            text-decoration:underline;
+        }
+        #grid{
+            display: grid;
+            width: 80%;
+            margin: auto;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 10px;
+            padding-top: 20px;
+        }
+        #payment{
+            padding-left: 10%;
+            font-size: 15px;
+        }
+        #netbank{
+            width: 100px;
+            /* border: solid black 1px; */
+            
+            margin-left: -70px;
+        }
+        #visa{
+            width: 70px;
+            /* border: solid black 1px; */
+    
+            margin-left: -90px;
+        }
+        #mastercard{
+            width: 70px;
+            height: 40px;
+            /* border: solid black 1px; */
+            margin-left: -90px;
+        }
+        #cashon{
+            width: 100px;
+            /* border: solid black 1px; */
+            margin-left: -90px;
+        }
+        #jiomoney{
+            width: 90px;
+            /* border: solid black 1px; */
+            margin-left: -90px;
+        }
+        #payment-grid{
+            display: flex;
+            column-gap: 5px;
+            justify-content: space-evenly;
+            /* grid-template-columns: repeat(6,1fr);
+            text-align: center; */
+            width: 50%;
+            margin-left: 7%;
+            /* border:solid red 1px; */
+        }
+        #last{
+            direction: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+</style>
+
+<body>
+    <div id="navbar">
+        <div id="navbar-left">
+            
+            <img src="./finalajio.jpeg" alt="">
+        </div>
+        <div id="navbar-right">
+            <div id="right-upper">
+                 <a href="login.html"><p id="ru">Sign In / Join AJIO</p></a>  
+                <a href=""><p id="ru">Customer Care</p></a>
+                <button id="navbar-button">Visit AJIOLUXE</button>
+            </div>
+            <div id="right-lower">
+                <p id="rl">MEN</p>
+                <p id="rl">WOMEN</p>
+                <p id="rl">KIDS</p>
+                <p id="rl">INDIE</p>
+                <p id="rl">HOME AND KITCHEN</p>
+                <input id="navbar-input" type="text" placeholder="Search AJIO">
+                <img id="bar-img" src="https://i.pinimg.com/originals/fc/fa/0c/fcfa0c367d786deeaf42dec2fda70e47.png" alt="">
+                <img id="bar-img"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHuCTCHiz7-sR9YwmlVHDZ0UXU-tcjDRIzmGlub9of64k0gsAJXe29kR-9Bpfj1f_YAg&usqp=CAU" alt="">
+            </div>
+        </div>
+    </div>
+  <hr style="margin-top: 8px;">
+
+   <!-- footer section -->
+
+   <div id="body">
+    <div id="grid">
+        <div>
+            <h4>Ajio</h4>
+            <a href="">Who We Are</a><br>
+            <a href=""><p> Join Our Team </p></a>
+            <a href=""><p>Terms & Conditions</p></a>
+            <a href=""><p>We Respect Your Privacy</p></a>
+            <a href=""><p>Fees & Payments</p></a>
+            <a href=""><p>Returns & Refunds Policy</p></a>
+            <a href=""><p>Promotions Terms & conditions</p></a>
+        </div>
+
+        <div>
+            <h4>Help</h4>
+            <a href="">Track Your Order</a><br>
+            <a href=""><p>Frequently Asked Questions</p></a>
+            <a href=""><p>Returns</p></a>
+            <a href=""><p>Cancellations</p></a>
+            <a href=""><p>Payments</p></a>
+            <a href=""><p>Customer Care</p></a>
+            <a href=""><p>How Do I Reedem My Coupon</p></a>
+        </div>
+
+        <div>
+            <h4>Shop By</h4>
+            <a href="">Men</a><br>
+            <a href=""><p>Women</p></a>
+            <a href=""><p>Kids</p></a>
+            <a href=""><p>Indie</p></a>
+            <a href=""><p>Stores</p></a>
+            <a href=""><p>New Arrivals</p></a>
+            <a href=""><p>Brand Directory</p></a>
+            <a href=""><p>Home</p></a>
+            <a href=""><p>Collections</p></a>
+        </div>
+
+        <div>
+            <h4>Follow us</h4>
+            <a href="">Facebook</a><br>
+            <a href=""><p>Instagram-Ajiolife</p></a>
+            <a href=""><p>Instagram-AjioLUXE</p></a>
+            <a href=""><p>Twitter</p></a>
+            <a href=""><p>Pinterest</p></a>
+            
+        </div>
+       
+    </div>
+    <hr style="width: 80%;margin-top: 30px;">
+    <div id="last">
+        <h4 id="payment" >Payment methods</h4>
+        <div id="payment-grid">
+            <img id="netbank" src="./netbanking.jpeg" alt="">
+            <img id="visa" src="./verifyvisa.jpeg" alt="">
+            <img id="mastercard" src="./mastercard.jpeg" alt="">
+            <img id="cashon" src="./cashon.jpeg" alt="">
+            <img id="jiomoney" src="./jiomoney.jpeg" alt="">
+        </div>
+        
+        <div>
+          <!-- <h4 style="font-size: 15px;">Secure Systems</h4>
+          <img src="./256bit.png" alt=""> -->
+        </div>
+    </div>
+    
+    </div>
+</body> 
+
+</html>
